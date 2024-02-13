@@ -14,12 +14,16 @@ The U-Net architecture, crucial to this project, is implemented within the _mode
 
 
 ## Model predictions
-<img src="data/images/000155de5.jpg" alt="Input image" height="400"/>
-<img src="data/predicted_masks/000155de5.jpg" alt="Predicted mask" height="400"/><br>
-<img src="data/images/0006c52e8.jpg" alt="Input image" height="400"/>
-<img src="data/predicted_masks/0006c52e8.jpg" alt="Predicted mask" height="400"/>
+|               Input image                 |                 Predicted mask                        |
+|:-----------------------------------------:|:-----------------------------------------------------:|
+| <img src="data/images/000155de5.jpg" alt="Input image" height="400"/> | <img src="data/predicted_masks/000155de5.jpg" alt="Predicted mask" height="400"/> |
 
-![Loss and Dice Coefficient during training and validation](reports/visualizations/segmentations_masks.png)
+|               Input image                 |                 Predicted mask                        |
+|:-----------------------------------------:|:-----------------------------------------------------:|
+| <img src="data/images/0006c52e8.jpg" alt="Input image" height="400"/> | <img src="data/predicted_masks/0006c52e8.jpg" alt="Predicted mask" height="400"/> |
+
+
+![Segmentation masks](reports/visualizations/segmentations_masks.png)
 
 ## Metrics
 For evaluating the performance of the model, I utilize the Dice Coefficient as the primary metric along with the loss function during training and validation. <br>
