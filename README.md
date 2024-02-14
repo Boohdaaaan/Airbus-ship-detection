@@ -44,7 +44,7 @@ After training, the model achieved a validation Dice coefficient of 0.8.
 
 * Move to project folder
 ```bash
-  cd Airbus
+  cd Airbus-ship-detection
 ```
 
 * Install dependencies
